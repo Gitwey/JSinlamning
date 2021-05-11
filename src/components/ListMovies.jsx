@@ -22,11 +22,9 @@ export default function ListMovies({ movies, setMovies }) {
                             <td>{getStars(movie.rating)}</td>
                             <td><ImCross style={{ 'color': 'red' }} key={index} onClick={() => removeMovie(movie)} /></td>
                         </tr>
-
                     )}
                 </tbody>
             </table>
-
         </>
     )
 }
