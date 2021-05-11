@@ -21,7 +21,9 @@ export default function AddMovieForm({ movies, setMovies }) {
           <option value="4">4</option>
           <option value="5">5</option>
         </select>
-        <input type="submit" value="Spara Film" />
+        <div className="row justify-content-center">
+          <input type="submit" className="btn btn-success" value="Spara Film" />
+        </div>
       </form>
       <ul>
       
